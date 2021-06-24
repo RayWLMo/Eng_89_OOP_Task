@@ -49,7 +49,7 @@ class Age_Requirements:
             return "Hooray! You can vote and drive!"
 
     def drink(self):
-        if 16 <= int(self.age) < 18:
+        if int(self.age) < 18:
             return "You can't legally drink but your mates might have your back."
         else:
             return "You can drink but don't drink and drive!"

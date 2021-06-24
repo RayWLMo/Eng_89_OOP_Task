@@ -102,7 +102,7 @@ user = Age_Requirements()
 query_prompt = True
 ```
 While is defined so that the user is constantly prompted unless they want to exit
-```
+```py
 while query_prompt:
     user_response = input("\ntype 'vote' to see if you are eligible to vote"
                           "\ntype 'drive' to see if you are eligible to drive"
@@ -125,3 +125,4 @@ while query_prompt:
         print(user.drink())
     else:  # Failsafe incase there is an invalid input
         print("User input is invalid please try again.")
+```
